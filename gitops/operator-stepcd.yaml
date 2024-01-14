@@ -17,4 +17,4 @@ spec:
               image: sweaze/lab10-stepcd
               command: [sh, -e, -c]
               args:
-                - git clone https://github.com/patrykbalinski/lab10_config.git /tmp/lab10_config && find /tmp/lab10_config -name '*.yaml' -exec kubectl apply -f {} \;
+                - git clone https://github.com/patrykbalinski/fullstack-zad2-config.git /tmp/lab10_config && find /tmp/lab10_config -name '*.yaml' -exec kubectl apply -f {} \;
